@@ -1,0 +1,23 @@
+{
+  "name": "editeur-carto",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "description": "Test de l'éditeur carto, entre extgpf, mcutils et dsfr personnalisé",
+  "author": "IGNF",
+  "license": "GPL-3",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "sass-embedded": "^1.89.2",
+    "vite": "^7.0.4"
+  },
+  "dependencies": {
+    "dsfrign": "https://github.com/MatRouillard/dsfr/releases/download/v1.14.2/ignf-dsfr-v1.14.2.tgz",
+    "geopf-extensions-openlayers": "./geopf-extensions-openlayers-1.0.0-beta.4-398.tgz",
+    "mcutils": "git+https://github.com/IGNF-Ma-carte/mcutils#v4.4.0"
+  }
+}

@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Éditeur de cartes | Cartes.gouv.fr</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="description" content="Éditeur de cartes cartes.gouv.fr" />
+  <meta name="mobile-web-app-capable" content="yes">
+
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <link rel="apple-touch-icon" href="./favicon/apple-touch-icon.png"><!-- 180×180 -->
+  <link rel="icon" href="./favicon/favicon.svg" type="image/svg+xml">
+  <link rel="shortcut icon" href="./favicon/favicon.ico" type="image/x-icon"><!-- 32×32 -->
+  <link rel="manifest" href="./assets/favicon/manifest.webmanifest" crossorigin="use-credentials">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- <link rel="stylesheet" href="./node_modules/dsfrign/dist/dsfr.css">
+  <link rel="stylesheet" href="./node_modules/dsfrign/dist/utility/icons/icons.css"> -->
+
+</head>
+
+<body>
+
+  <header role="banner" class="fr-header fr-header--compact">
+    <div class="fr-header__body">
+      <div class="fr-container--fluid">
+        <div class="fr-header__body-row">
+          <div class="fr-header__brand fr-enlarge-link">
+            <div class="fr-header__brand-top">
+              <div class="fr-header__logo">
+                <p class="fr-logo"></p>
+              </div>
+              <div class="fr-header__service">
+                <a href="/" title="Accueil - Cartes.gouv.fr - IGN France">
+                  <p class="fr-header__service-title">
+                    Cartes.gouv.fr
+                    <span class="fr-badge fr-badge--sm fr-badge--green-emeraude">BETA</span>
+                  </p>
+                </a>
+              </div>
+              <div class="fr-header__navbar">
+                <button data-fr-opened="false" aria-controls="modal-337" title="Menu" type="button" id="button-338"
+                  class="fr-btn--menu fr-btn">Menu</button>
+              </div>
+            </div>
+          </div>
+          <div class="fr-header__tools">
+            <div class="fr-header__tools-links">
+              <nav role="navigation" class="fr-access fr-nav" id="access-343">
+                <div class="fr-nav__item">
+                  <button aria-controls="collapse-318" aria-expanded="false" title="Aide" type="button"
+                    class="fr-access__btn fr-nav__btn fr-btn fr-btn--sm fr-icon-question-fill fr-btn--icon-left fr-btn--tertiary-no-outline">Aide</button>
+                  <div class="fr-collapse fr-access__menu fr-menu" id="collapse-318">
+                    <ul class="fr-menu__list">
+                      <li class="fr-menu__item">
+                        <a id="access__link-339" href="#"
+                          class="fr-icon-question-mark fr-link--icon-left fr-access__link fr-nav__link fr-access__link fr-nav__link">Questions
+                          fréquentes</a>
+                      </li>
+                      <li class="fr-menu__item">
+                        <a id="access__link-340" href="#"
+                          class="fr-icon-file-text-line fr-link--icon-left fr-access__link fr-nav__link fr-access__link fr-nav__link">Documentation</a>
+                      </li>
+                      <li class="fr-menu__item">
+                        <a id="access__link-341" href="#"
+                          class="fr-icon-mail-line fr-link--icon-left fr-access__link fr-nav__link fr-access__link fr-nav__link">Nous
+                          contacter</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+              <nav role="navigation" class="fr-access fr-nav" id="access-352">
+                <div class="fr-nav__item">
+                  <button aria-controls="collapse-327" aria-expanded="false" title="Services" type="button"
+                    class="fr-access__btn fr-nav__btn fr-btn fr-btn--sm fr-icon-menu-fill fr-btn--icon-left fr-btn--tertiary-no-outline">Services</button>
+                  <div class="fr-collapse fr-access__menu fr-menu" id="collapse-327">
+                    <ul class="fr-menu__list">
+                      <li class="fr-menu__item">
+                        <a id="access__link-344" href="#"
+                          class="fr-icon-road-map-line fr-link--icon-left fr-access__link fr-nav__link fr-access__link fr-nav__link">Explorer
+                          les cartes</a>
+                      </li>
+                      <li class="fr-menu__item">
+                        <a id="access__link-345" href="#"
+                          class="fr-icon-search-line fr-link--icon-left fr-access__link fr-nav__link fr-access__link fr-nav__link">Rechercher
+                          une donnée</a>
+                      </li>
+                      <li class="fr-menu__item">
+                        <a id="access__link-346" href="#"
+                          class="fr-icon-upload-line fr-link--icon-left fr-access__link fr-nav__link fr-access__link fr-nav__link">Diffuser
+                          une donnée</a>
+                      </li>
+                      <li class="fr-menu__item">
+                        <a id="access__link-347" href="#"
+                          class="fr-icon-pen-nib-line fr-link--icon-left fr-access__link fr-nav__link fr-access__link fr-nav__link">Créer
+                          une carte</a>
+                      </li>
+                      <li class="fr-menu__item">
+                        <a id="access__link-348" href="#"
+                          class="fr-icon-message-2-line fr-link--icon-left fr-access__link fr-nav__link fr-access__link fr-nav__link">Contribuer</a>
+                      </li>
+                      <li class="fr-menu__item">
+                        <a id="access__link-349" href="#"
+                          class="fr-icon-code-s-slash-line fr-link--icon-left fr-access__link fr-nav__link fr-access__link fr-nav__link">Géocoder</a>
+                      </li>
+                      <li class="fr-menu__item">
+                        <a id="access__link-350" href="#"
+                          class="fr-icon-file-text-line fr-link--icon-left fr-access__link fr-nav__link fr-access__link fr-nav__link">Documentation</a>
+                      </li>
+                      <li class="fr-menu__item fr-menu__option">
+                        <div class="fr-option">
+                          <a title="Découvrir cartes.gouv" id="option-329" href="#"
+                            class="fr-option__btn fr-btn fr-btn--sm fr-icon-external-link-line fr-btn--icon-right fr-btn--tertiary">Découvrir
+                            cartes.gouv</a>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+              <nav role="navigation" class="fr-access fr-nav" id="access-357">
+                <div class="fr-nav__item">
+                  <button aria-controls="collapse-332" aria-expanded="false" title="Mon espace" type="button"
+                    class="fr-access__btn fr-nav__btn fr-btn fr-btn--sm fr-icon-account-fill fr-btn--icon-left fr-btn--tertiary-no-outline">Mon
+                    espace</button>
+                  <div class="fr-collapse fr-access__menu fr-menu" id="collapse-332">
+                    <ul class="fr-menu__list">
+                      <li class="fr-menu__item">
+                        <div class="fr-description" id="description-358">
+                          <div class="fr-description__label fr-text--bold fr-text--sm fr-text-action-high--grey">Nom
+                            utilisateur</div>
+                          <div class="fr-description__info fr-text--xs fr-text-mention--grey">
+                            adresseutilisateur@email.com</div>
+                        </div>
+                      </li>
+                      <li class="fr-menu__item">
+                        <a id="access__link-354" href="#"
+                          class="fr-icon-dashboard-3-line fr-link--icon-left fr-access__link fr-nav__link fr-access__link fr-nav__link">Tableau
+                          de bord</a>
+                      </li>
+                      <li class="fr-menu__item">
+                        <a id="access__link-355" href="#"
+                          class="fr-icon-user-line fr-link--icon-left fr-access__link fr-nav__link fr-access__link fr-nav__link">Mon
+                          compte</a>
+                      </li>
+                      <li class="fr-menu__item fr-menu__option">
+                        <div class="fr-option">
+                          <a title="Se déconnecter" id="option-335" href="#"
+                            class="fr-option__btn fr-btn fr-btn--sm fr-icon-logout-box-r-line fr-btn--icon-left fr-btn--tertiary">Se
+                            déconnecter</a>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="fr-header__menu fr-modal" id="modal-337" aria-labelledby="button-338">
+      <div class="fr-container">
+        <button aria-controls="modal-337" title="Fermer" type="button" id="button-360"
+          class="fr-btn--close fr-btn">Fermer</button>
+        <div class="fr-header__menu-links">
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <main>
+    <div id="map"></div>
+  </main>
+
+  <footer class="fr-footer__bottom">
+    <div class="fr-container--fluid">
+    <ul data-v-4030eed5="" class="fr-footer__bottom-list">
+      <li data-v-4030eed5="" class="fr-footer__bottom-item"><a data-v-4030eed5="" class="fr-footer__bottom-link"
+          href="https://cartes.gouv.fr/plan-du-site"><!----> Plan du site <!----></a></li>
+      <li data-v-4030eed5="" class="fr-footer__bottom-item"><a data-v-4030eed5="" class="fr-footer__bottom-link"
+          href="https://cartes.gouv.fr/accessibilite"><!----> Accessibilité : partiellement conforme <!----></a></li>
+      <li data-v-4030eed5="" class="fr-footer__bottom-item"><a data-v-4030eed5="" class="fr-footer__bottom-link"
+          href="https://cartes.gouv.fr/mentions-legales"><!----> Mentions légales <!----></a></li>
+      <li data-v-4030eed5="" class="fr-footer__bottom-item"><a data-v-4030eed5="" class="fr-footer__bottom-link"
+          href="https://cartes.gouv.fr/donnees-personnelles"><!----> Données personnelles <!----></a></li>
+      <li data-v-4030eed5="" class="fr-footer__bottom-item"><a data-v-4030eed5="" href="/cartes/"
+          class="router-link-active router-link-exact-active fr-footer__bottom-link" aria-current="page"><!----> Gestion
+          des cookies <!----></a></li>
+      <li data-v-4030eed5="" class="fr-footer__bottom-item"><button data-v-4030eed5=""
+          class="fr-footer__bottom-link fr-icon-theme-fill fr-link--icon-left fr-px-2v" to="/settings"><!---->
+          Paramètres d’affichage <!----></button></li>
+    </ul>
+    </div>
+  </footer>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
