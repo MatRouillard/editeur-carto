@@ -23,7 +23,7 @@ const carte = new Carte({
 
 // carte.read(testCarte);
 
-fetch('/carte/template.carte')
+fetch(import.meta.env.BASE_URL + 'carte/template.carte')
   .then(res => res.json())
   .then(data => {
     carte.read(data);
