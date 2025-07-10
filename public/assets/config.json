@@ -1,0 +1,4 @@
+{
+  "server": "https://127.0.0.1:8000",
+  "viewer": "https://qlf-macarte.ign.fr/carte/$ID/$TITLE?$NOTITLE"
+}
