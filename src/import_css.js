@@ -10,4 +10,5 @@ import 'geopf-extensions-openlayers/src/packages/CSS/DSFRgeneralWidget.css';
 import 'geopf-extensions-openlayers/css/Dsfr.css';
 
 // Custom CSS
+import './CSS/icons.scss';
 import './CSS/index.scss';
