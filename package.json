@@ -13,7 +13,9 @@
   },
   "devDependencies": {
     "sass-embedded": "^1.89.2",
-    "vite": "^7.0.4"
+    "vite": "^7.0.4",
+    "@commitlint/cli": "^15.0.0",
+    "@commitlint/config-conventional": "^15.0.0"
   },
   "dependencies": {
     "dsfrign": "https://github.com/MatRouillard/dsfr/releases/download/v1.14.2/ignf-dsfr-v1.14.2.tgz",

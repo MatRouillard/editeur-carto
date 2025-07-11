@@ -1,5 +1,5 @@
 import { defineConfig } from 'vite';
 
-export default defineConfig({
-  base: '/editeur-carto/',
-});
+export default defineConfig(({ command }) => ({
+  base: command === 'dev' ? '/' : '/editeur-carto/',
+}));
